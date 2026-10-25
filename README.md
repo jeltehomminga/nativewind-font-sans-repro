@@ -42,7 +42,7 @@ The `control` branch swaps the `@theme` block for this, after the imports, and `
 
 ## Compiled output
 
-`node probe.cjs` compiles the same CSS with `@tailwindcss/postcss` and `react-native-css/compiler` and prints the root variable:
+`node probe.cjs`, run from the repo root, compiles the same `@theme` block after Tailwind's theme and `nativewind/theme`, with `@tailwindcss/postcss` and `react-native-css/compiler`, and prints the root variable:
 
 ```json
 [["font-sans",[["SystemAndroid",[["=","platform","android"]]],["System",[["=","platform","ios"]]],["Courier"]]]]
