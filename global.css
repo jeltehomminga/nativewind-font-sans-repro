@@ -3,6 +3,6 @@
 @import 'tailwindcss/utilities.css';
 @import 'nativewind/theme';
 
-@theme {
+:root {
   --font-sans: 'Courier';
 }
