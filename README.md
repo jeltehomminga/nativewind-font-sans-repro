@@ -57,6 +57,8 @@ The platform values from nativewind's `theme.css` come first, and the runtime re
 
 nativewind 5.0.0-rc.0, react-native-css 3.1.0-rc.0, tailwindcss and @tailwindcss/postcss 4.1.12, lightningcss 1.30.1, expo 57.0.22, react-native 0.86.3, react 19.2.3, react-native-reanimated 4.5.1, react-native-worklets 0.10.1. Debug builds, Xcode 27.1, macOS 27.0.1.
 
+Rechecked on nativewind 5.0.0-rc.1 and react-native-css 3.1.0-rc.1, which `main` now uses: the iOS 26.5 simulator still prints `font-sans resolved fontFamily: System (expected Courier)`, and `node probe.cjs` prints the same output as above. Android and the `control` branch were only run on rc.0.
+
 ## Changes from the stock app
 
 Made with `npx rn-new@next --nativewind --npm` (first commit), then:
